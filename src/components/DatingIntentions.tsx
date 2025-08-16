@@ -37,7 +37,7 @@ export default function DatingIntentions() {
           <div className="space-y-4 sm:space-y-6">
             <div className="bg-gradient-to-br from-pink-50 to-purple-50 p-4 sm:p-6 lg:p-8 rounded-lg shadow-lg">
               <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-4 sm:mb-6">
-                What I'm Looking For
+                What I&apos;m Looking For
               </h3>
               <ul className="space-y-3 sm:space-y-4">
                 <li className="flex items-start">

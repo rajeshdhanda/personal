@@ -15,7 +15,7 @@ export default function Personality() {
             </h3>
             <div className="text-sm sm:text-base text-gray-700 space-y-2">
               <p>&bull; Calm vibes, deep convos & rarely Gyaani Baba mode.</p>
-              <p>&bull; I'll probably ask you NOT to become a housewife. I can't even imagine this.</p>
+              <p>&bull; I&apos;ll probably ask you NOT to become a housewife. I can&apos;t even imagine this.</p>
               <p>&bull; Earn, build & automate the boring stuff for kitchen or home to save time for both.</p>
               <p>&bull; I will be nudging for travel plans: beach, mountains, camping, and adventure!</p>
             </div>
@@ -40,13 +40,13 @@ export default function Personality() {
           <div className="bg-blue-50 p-4 sm:p-6 rounded-lg">
             <div className="text-sm sm:text-base text-gray-700 space-y-3">
               <p>
-                🤔 Sometimes I get confused: first, sincerity and loyalty are appreciated, but then they become boring or clingy. I genuinely want to understand what you truly value. If I don't put in effort, it's seen as ego; if I do, it's seen as clingy. What do you really want? 💬
+                🤔 Sometimes I get confused: first, sincerity and loyalty are appreciated, but then they become boring or clingy. I genuinely want to understand what you truly value. If I don&apos;t put in effort, it&apos;s seen as ego; if I do, it&apos;s seen as clingy. What do you really want? 💬
               </p>
               <p>
-                🙇‍♂️ I always try my best to respect, but honestly, currently I'm a bit scared of relationships.
+                🙇‍♂️ I always try my best to respect, but honestly, currently I&apos;m a bit scared of relationships.
               </p>
               <p>
-                📝 This is my honest opinion, also I don't like this opinion either and I hope we'll help us see things differently and grow together.
+                📝 This is my honest opinion, also I don&apos;t like this opinion either and I hope we&apos;ll help us see things differently and grow together.
               </p>
             </div>
           </div>

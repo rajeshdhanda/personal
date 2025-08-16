@@ -18,12 +18,12 @@ export default function About() {
                 Hey, nice to connect with you! 😊
               </p>
               <p className="text-sm sm:text-base text-gray-700 leading-relaxed mb-3 sm:mb-4">
-                I'm genuinely looking for a life partner—no casual or short-term intentions. 
+                I&apos;m genuinely looking for a life partner—no casual or short-term intentions. 
                 Where I settle after marriage will depend on mutual understanding.
               </p>
               <p className="text-sm sm:text-base text-gray-700 leading-relaxed">
-                Also, just to be transparent—I don't come from a strong financial or family background. 
-                If that's a concern and you'd like to step back, I completely respect your decision.
+                Also, just to be transparent—I don&apos;t come from a strong financial or family background. 
+                If that&apos;s a concern and you&apos;d like to step back, I completely respect your decision.
               </p>
             </div>
           </div>
