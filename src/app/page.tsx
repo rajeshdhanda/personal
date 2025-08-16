@@ -15,6 +15,7 @@ export default function Home() {
 
   const correctPassword = "2025"; // Change this to your desired password
 
+  
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if (password === correctPassword) {
