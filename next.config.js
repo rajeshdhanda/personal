@@ -3,8 +3,8 @@ const nextConfig = {
   output: 'export',
   trailingSlash: true,
   ...(process.env.NODE_ENV === 'production' && {
-    basePath: '/portfolio', // Repository name-based basePath
-    assetPrefix: '/portfolio',
+    basePath: '/personal', // Repository name-based basePath
+    assetPrefix: '/personal',
   }),
   images: {
     unoptimized: true

@@ -8,7 +8,7 @@ export function getAssetPath(path: string): string {
   
   // In production with basePath, prepend the basePath
   if (process.env.NODE_ENV === 'production') {
-    return `/portfolio/${cleanPath}`;
+    return `/personal/${cleanPath}`;
   }
   
   // In development, use the original path
