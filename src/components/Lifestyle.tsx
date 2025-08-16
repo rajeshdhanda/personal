@@ -45,7 +45,8 @@ export default function Lifestyle() {
               <ul className="space-y-2 text-sm sm:text-base text-gray-700">
                 <li>&bull; Direct and transparent conversations matter.</li>
                 <li>&bull; WhatsApp only - I don&apos;t have any Instagram or Snapchat accounts</li>
-                <li>&bull; Not a fan of chats, typing long messages irritating and exhausting. Value face-to-face or video calls preferred</li>
+                <li>&bull; Not a fan of chats, typing long messages are irritating and exhausting.</li>
+                <li>&bull; Value face-to-face conversations or Video calls preferred</li>
               </ul>
             </div>
 
