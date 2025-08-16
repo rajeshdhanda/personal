@@ -1,2 +1,1 @@
-# personal
-Personal Details 
+Personal
