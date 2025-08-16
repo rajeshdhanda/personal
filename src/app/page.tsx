@@ -111,7 +111,9 @@ export default function Home() {
       <Lifestyle />
       <DatingIntentions />
       <WhatMakesUsClick />
-      <BucketListContainer />
+      <div id="bucket-list">
+        <BucketListContainer />
+      </div>
     </main>
   );
 }

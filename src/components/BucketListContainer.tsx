@@ -39,7 +39,7 @@ export default function BucketListContainer() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-100 pt-16">
+    <div id="bucket-list" className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-100 pt-16">
       {/* Header */}
       <section className="py-12 sm:py-16 lg:py-20 bg-gradient-to-r from-white via-blue-50 to-white border-b shadow-sm">
         <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 text-center">

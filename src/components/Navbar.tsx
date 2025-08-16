@@ -36,7 +36,7 @@ export default function Navbar() {
               <Link href="/#compatibility" className="text-gray-300 hover:text-blue-400 hover:bg-gray-800 px-3 py-2 rounded-lg text-sm font-medium transition-all duration-200 transform hover:scale-105">
                 Compatibility
               </Link>
-              <Link href="/bucket-list" className="text-gray-300 hover:text-blue-400 hover:bg-gray-800 px-3 py-2 rounded-lg text-sm font-medium transition-all duration-200 transform hover:scale-105">
+              <Link href="/#bucket-list" className="text-gray-300 hover:text-blue-400 hover:bg-gray-800 px-3 py-2 rounded-lg text-sm font-medium transition-all duration-200 transform hover:scale-105">
                 Bucket List
               </Link>
             </div>
@@ -105,7 +105,7 @@ export default function Navbar() {
               💖 Compatibility
             </Link>
             <Link 
-              href="/bucket-list" 
+              href="/#bucket-list" 
               onClick={() => setIsMenuOpen(false)}
               className="text-gray-300 hover:text-blue-400 hover:bg-gray-800 block px-3 py-2.5 rounded-lg text-sm font-medium transition-all duration-200"
             >
