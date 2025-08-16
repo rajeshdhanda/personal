@@ -38,7 +38,7 @@ export default function WhatMakesUsClick() {
             </h3>
             <p className="text-sm sm:text-base text-gray-700">
               You enjoy exploring new places and experiences together. 
-              Whether it's weekend getaways or planning bigger adventures.
+              Whether it&apos;s weekend getaways or planning bigger adventures.
             </p>
           </div>
 
@@ -48,8 +48,8 @@ export default function WhatMakesUsClick() {
               Career Minded
             </h3>
             <p className="text-sm sm:text-base text-gray-700">
-              You believe in building your own career and aren't looking to become 
-              just a housewife. We can support each other's professional growth.
+              You believe in building your own career and aren&apos;t looking to become 
+              just a housewife. We can support each other&apos;s professional growth.
             </p>
           </div>
 
@@ -59,7 +59,7 @@ export default function WhatMakesUsClick() {
               Growth Mindset
             </h3>
             <p className="text-sm sm:text-base text-gray-700">
-              You believe in supporting each other's personal and professional growth. 
+              You believe in supporting each other&apos;s personal and professional growth. 
               We can learn from each other and build something great together.
             </p>
           </div>
@@ -71,7 +71,7 @@ export default function WhatMakesUsClick() {
             </h3>
             <p className="text-sm sm:text-base text-gray-700">
               You appreciate a balanced lifestyle that values both personal growth 
-              and quality time together, with respect for each other's space.
+              and quality time together, with respect for each other&apos;s space.
             </p>
           </div>
         </div>
@@ -79,12 +79,12 @@ export default function WhatMakesUsClick() {
         <div className="mt-8 sm:mt-12 text-center">
           <div className="bg-gradient-to-r from-green-50 to-blue-50 p-4 sm:p-6 lg:p-8 rounded-lg shadow-lg max-w-4xl mx-auto">
             <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-3 sm:mb-4">
-              Let's Build Something Beautiful Together! ✨
+              Let&apos;s Build Something Beautiful Together! ✨
             </h3>
             <p className="text-base sm:text-lg text-gray-700 leading-relaxed">
               If you see yourself in these points and are ready for a genuine, 
               authentic relationship built on mutual respect and effort, 
-              I'd love to get to know you better. Let's start with honest 
+              I&apos;d love to get to know you better. Let&apos;s start with honest 
               conversations and see where this journey takes us! 💕
             </p>
           </div>

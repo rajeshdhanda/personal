@@ -32,7 +32,7 @@ export default function Home() {
           <div style={{ width: "60px", height: "60px", borderRadius: "50%", background: "linear-gradient(135deg, #ff6b9d 0%, #ffa726 100%)", display: "flex", alignItems: "center", justifyContent: "center", marginBottom: "1.5rem", fontSize: "1.5rem" }}>👤</div>
           <h2 style={{ marginBottom: "1rem", color: "#2d3748", fontSize: "1.6rem", fontWeight: "700", letterSpacing: "-0.02em" }}>Welcome!</h2>
           <p style={{ maxWidth: 380, textAlign: "center", color: "#4a5568", fontSize: "1.1rem", lineHeight: "1.6", marginBottom: "2rem" }}>
-            Welcome to my personal corner of the internet! This is where I share my authentic self, my hopes, dreams, and what makes me tick. I've added a gentle password here to keep this space special and private.<br /><br />
+            Welcome to my personal corner of the internet! This is where I share my authentic self, my hopes, dreams, and what makes me tick. I&apos;ve added a gentle password here to keep this space special and private.<br /><br />
             <span style={{ fontSize: "1rem", color: "#718096", fontStyle: "italic" }}>Thank you for being so wonderful and respectful of my privacy!</span>
           </p>
           <form onSubmit={handleSubmit} style={{ width: "100%", display: "flex", flexDirection: "column", alignItems: "center", gap: "1rem" }}>
