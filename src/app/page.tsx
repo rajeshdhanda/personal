@@ -13,7 +13,7 @@ export default function Home() {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
   const [error, setError] = useState("");
 
-  const correctPassword = "2025"; // Change this to your desired password
+  const correctPassword = "0708"; // Change this to your desired password
 
   
   const handleSubmit = (e: React.FormEvent) => {
