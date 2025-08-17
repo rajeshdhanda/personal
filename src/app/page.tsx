@@ -13,8 +13,8 @@ export default function Home() {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
   const [error, setError] = useState("");
 
-  const correctPassword = "0708"; // Change this to your desired password
-
+  // Next.js replaces process.env.NEXT_PUBLIC_* at build time, so this works in client components
+  const correctPassword = process.env.NEXT_PUBLIC_PROFILE_PASSWORD || "1234";
   
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -40,7 +40,7 @@ export default function Home() {
             <input
               type="password"
               value={password}
-              onChange={e => setPassword(e.target.value)}
+              onChange={(e: React.ChangeEvent<HTMLInputElement>) => setPassword(e.target.value)}
               placeholder="Enter password"
               style={{ 
                 padding: "1rem 1.25rem", 
@@ -55,12 +55,12 @@ export default function Home() {
                 fontFamily: "inherit"
               }}
               required
-              onFocus={e => {
+              onFocus={(e: React.FocusEvent<HTMLInputElement>) => {
                 e.target.style.border = "2px solid #667eea";
                 e.target.style.boxShadow = "0 0 0 4px rgba(102, 126, 234, 0.1)";
                 e.target.style.background = "#fff";
               }}
-              onBlur={e => {
+              onBlur={(e: React.FocusEvent<HTMLInputElement>) => {
                 e.target.style.border = "2px solid #e2e8f0";
                 e.target.style.boxShadow = "none";
                 e.target.style.background = "#f7fafc";
@@ -83,11 +83,11 @@ export default function Home() {
                 fontFamily: "inherit",
                 letterSpacing: "0.025em"
               }}
-              onMouseOver={e => {
+              onMouseOver={(e: React.MouseEvent<HTMLButtonElement>) => {
                 e.currentTarget.style.transform = "translateY(-2px)";
                 e.currentTarget.style.boxShadow = "0 6px 25px rgba(102, 126, 234, 0.4)";
               }}
-              onMouseOut={e => {
+              onMouseOut={(e: React.MouseEvent<HTMLButtonElement>) => {
                 e.currentTarget.style.transform = "translateY(0)";
                 e.currentTarget.style.boxShadow = "0 4px 20px rgba(102, 126, 234, 0.3)";
               }}
